@@ -3,7 +3,7 @@ const { createApp, h } = Vue;
 const signUp = {
     template: `
 <div class="sign-up">
-<slot></slot>
+<h1><slot></slot></h1>
 <button @click="submit">Submit</button>
 </div>
 `,
